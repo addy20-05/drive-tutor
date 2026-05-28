@@ -1,21 +1,21 @@
-# 🚗 Drive Tutor
+#  Drive Tutor
 
 > A web-controlled RC car with real-time FPV streaming, physics-based dashboard simulation, AI driving instructor, and autonomous emergency braking — built with ESP8266, ESP32-CAM, and Gemini API.
 
 ---
 
-## ✨ Features
+## Features
 
-- **🎮 Browser-Based Control** — Drive the RC car from any device using a fully interactive web interface with steering wheel, pedals, and gear system
-- **📹 FPV Live Stream** — Real-time First-Person View video feed via ESP32-CAM embedded directly in the dashboard
-- **🧠 AI Driving Instructor** — Powered by Gemini API; monitors telemetry and gives corrective driving feedback in plain English
-- **⚡ Autonomous Emergency Braking (AEB)** — Ultrasonic sensors detect obstacles and override throttle to prevent collisions automatically
-- **📊 Physics Simulation** — Realistic RPM, speed, gear, and fuel simulation running entirely in JavaScript
-- **📱 Cross-Platform** — Works on both mobile (touch) and desktop (mouse + keyboard)
+- **Browser-Based Control** — Drive the RC car from any device using a fully interactive web interface with steering wheel, pedals, and gear system
+- **FPV Live Stream** — Real-time First-Person View video feed via ESP32-CAM embedded directly in the dashboard
+- **AI Driving Instructor** — Powered by Gemini API; monitors telemetry and gives corrective driving feedback in plain English
+- **Autonomous Emergency Braking (AEB)** — Ultrasonic sensors detect obstacles and override throttle to prevent collisions automatically
+- **Physics Simulation** — Realistic RPM, speed, gear, and fuel simulation running entirely in JavaScript
+- **Cross-Platform** — Works on both mobile (touch) and desktop (mouse + keyboard)
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ![Block Diagram](docs/block_diagram.png)
 
@@ -40,7 +40,7 @@ Browser Interface (HTML/CSS/JS)
 
 ---
 
-## 🔧 Hardware Components
+## Hardware Components
 
 | # | Component | Purpose |
 |---|---|---|
@@ -55,7 +55,7 @@ Browser Interface (HTML/CSS/JS)
 
 ---
 
-## 💻 Software Stack
+## Software Stack
 
 | Layer | Technology |
 |---|---|
@@ -67,7 +67,7 @@ Browser Interface (HTML/CSS/JS)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -104,7 +104,7 @@ const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE";
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 drive-tutor/
@@ -126,7 +126,7 @@ drive-tutor/
 
 ---
 
-## 🧠 Key Concepts Implemented
+## Key Concepts Implemented
 
 - **Microcontroller Networking** — Asynchronous HTTP communication across dual microcontrollers
 - **Physics Simulation** — Real-time RPM, speed, fuel, and gear behaviour in JavaScript
@@ -136,7 +136,7 @@ drive-tutor/
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Lane detection using ESP32-CAM and OpenCV
 - Mobile app replacement for the browser interface
@@ -146,14 +146,8 @@ drive-tutor/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 👤 Author
-
-**Adithya** — [@addy20-05](https://github.com/addy20-05)
-
-> Built as part of a B.E. final year project. Feel free to fork, star ⭐, or reach out!
